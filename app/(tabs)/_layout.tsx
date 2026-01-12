@@ -3,15 +3,16 @@ import {Ionicons} from '@expo/vector-icons';
 
 export default function TabLayout() {
   return (
-  
+
     <Tabs
       screenOptions = {{
         headerShown: false,
-        tabBarActiveTintColor: 'gray',
+        tabBarActiveTintColor: 'black',
+        tabBarInactiveTintColor: 'gray',
       }}
     >
       <Tabs.Screen
-        name = "discover"
+        name = "index"
         options = {{
           title: 'Discover',
           tabBarIcon: ({color, size}) => (
