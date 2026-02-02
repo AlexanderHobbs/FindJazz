@@ -85,6 +85,7 @@ export default function DiscoverScreen() {
             </MapView>
             )}
           </View>
+        
         </SafeAreaView>
       </ImageBackground>
     );
