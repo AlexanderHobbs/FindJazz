@@ -30,7 +30,7 @@ export default function DiscoverScreen() {
     
     return (
       <ImageBackground
-        //source = {{ uri: 'https://miro.medium.com/1*uEH_OCMc2lD1A8kcS6HnzA.jpeg'}}
+        source = {{ uri: 'https://miro.medium.com/1*uEH_OCMc2lD1A8kcS6HnzA.jpeg'}}
         resizeMode = 'cover'
         style = {{flex: 2, justifyContent: 'center', backgroundColor: 'black', }}
         
